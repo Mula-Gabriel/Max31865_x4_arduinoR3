@@ -1,0 +1,38 @@
+Numérotation Screw_Terminal_01x02 en J5.
+Numérotation 2.2µf tantale en C4.
+Numérotation 100nF en C5.
+Numérotation 100nF en C6.
+Numérotation 100nF en C7.
+Numérotation 10nF en C8.
+Numérotation Conn_01x02 en J1.
+Numérotation Conn_01x02 en J2.
+Numérotation Conn_01x02 en J3.
+Numérotation Conn_01x03 en J4.
+Numérotation 2.2µf tantale en C3.
+Numérotation Screw_Terminal_01x02 en J6.
+Numérotation 400 0.1% en R1.
+Numérotation 4000 0.1% en R2.
+Numérotation 10M en R3.
+Numérotation R en R4.
+Numérotation MIC5219-3.3YM5 en U1.
+Numérotation MIC5219-3.3YM5 en U2.
+Numérotation MAX31865xAP en U3.
+Numérotation +3.3V en #PWR010.
+Numérotation VPP en #PWR02.
+Numérotation GNDA en #PWR03.
+Numérotation GND en #PWR04.
+Numérotation GNDA en #PWR05.
+Numérotation GND en #PWR06.
+Numérotation GNDA en #PWR07.
+Numérotation GND en #PWR08.
+Numérotation +3.3VA en #PWR09.
+Numérotation VPP en #PWR01.
+Numérotation GND en #PWR011.
+Numérotation GND en #PWR012.
+Numérotation +3.3V en #PWR013.
+Numérotation +3.3VA en #PWR014.
+Numérotation GNDA en #PWR015.
+Numérotation GNDA en #PWR016.
+Numérotation 470 pf en C1.
+Numérotation 470 pf en C2.
+Annotation terminée.
