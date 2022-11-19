@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/gaby/Arduino_MAX31865/Shield/Shield.kicad_sch</source>
-    <date>ven. 18 nov. 2022 18:52:07</date>
+    <source>/home/gaby/GitRepo/Max31865_x4_arduinoR3/Shield.kicad_sch</source>
+    <date>sam. 19 nov. 2022 15:10:19</date>
     <tool>Eeschema (6.0.9)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,7 +28,7 @@
         <company/>
         <rev/>
         <date/>
-        <source>MAX31865.kicad_sch</source>
+        <source>MAX31865_3w.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -40,13 +40,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/">
+    <sheet number="3" name="/MAX31865_2/" tstamps="/e2d18e8c-1174-4a60-a6fc-991b63e21af0/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>MAX31865.kicad_sch</source>
+        <source>MAX31865_3w.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -58,13 +58,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/">
+    <sheet number="4" name="/MAX31865_3/" tstamps="/cecccb11-9ba5-4726-b914-0eb04ce5992d/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>MAX31865.kicad_sch</source>
+        <source>MAX31865_3w.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -76,13 +76,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/">
+    <sheet number="5" name="/MAX31865_4/" tstamps="/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>MAX31865.kicad_sch</source>
+        <source>MAX31865_3w.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -193,7 +193,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
       <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
       <tstamps>11365b72-7dfc-4463-9cbd-3a437b9b5ec6</tstamps>
     </comp>
@@ -202,108 +202,36 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
       <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
       <tstamps>a20bec16-7915-439c-a056-303745291c4b</tstamps>
     </comp>
-    <comp ref="C9">
+    <comp ref="C10">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
-      <tstamps>51853eaf-2436-4dc3-9484-fe3da6fa7d19</tstamps>
-    </comp>
-    <comp ref="C10">
-      <value>10nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
       <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
       <tstamps>ecb3c446-1256-4640-ae70-3636a855c193</tstamps>
     </comp>
     <comp ref="J1">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
       <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
-      <tstamps>13003089-fe56-42ed-8770-d66d9edaad5c</tstamps>
-    </comp>
-    <comp ref="J2">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
-      <tstamps>ef7943c6-deee-4f9c-8e50-6b7866c64a53</tstamps>
-    </comp>
-    <comp ref="J3">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
-      <tstamps>6c76b22e-7154-439d-aef5-f37f8f155dea</tstamps>
-    </comp>
-    <comp ref="J4">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
-      <tstamps>28165c0b-7058-4e8a-9312-9d6f090d0d39</tstamps>
-    </comp>
-    <comp ref="J5">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
-      <tstamps>9e833409-bab8-4e40-b32f-657c5aeb4360</tstamps>
-    </comp>
-    <comp ref="J6">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
-      <tstamps>67b2e3cf-428b-47be-aaf6-75c9c6694325</tstamps>
-    </comp>
-    <comp ref="J7">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
-      <tstamps>647ac973-7ba1-41c4-8d17-d96c34b65167</tstamps>
+      <tstamps>5ad22914-d2c9-4f78-8618-37e3ef89df7d</tstamps>
     </comp>
     <comp ref="R1">
       <value>400 0.1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
       <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
       <tstamps>18831e50-f725-4939-980f-8e2bb44d49af</tstamps>
-    </comp>
-    <comp ref="R2">
-      <value>4000 0.1%</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
-      <tstamps>bfb682d4-7786-4b8e-9034-2dd92961d857</tstamps>
     </comp>
     <comp ref="U3">
       <value>MAX31865xAP</value>
@@ -311,126 +239,54 @@
       <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf</datasheet>
       <libsource lib="Sensor_Temperature" part="MAX31865xAP" description="RTD-to-Digital Converter, SSOP-20"/>
       <property name="Sheetname" value="MAX31865_1"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
       <sheetpath names="/MAX31865_1/" tstamps="/ec1f69e3-5897-4f77-9f27-39305d91428f/"/>
       <tstamps>0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="MAX31865_2"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_2/" tstamps="/e2d18e8c-1174-4a60-a6fc-991b63e21af0/"/>
+      <tstamps>11365b72-7dfc-4463-9cbd-3a437b9b5ec6</tstamps>
     </comp>
     <comp ref="C11">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>11365b72-7dfc-4463-9cbd-3a437b9b5ec6</tstamps>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_2/" tstamps="/e2d18e8c-1174-4a60-a6fc-991b63e21af0/"/>
+      <tstamps>a20bec16-7915-439c-a056-303745291c4b</tstamps>
     </comp>
     <comp ref="C12">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>a20bec16-7915-439c-a056-303745291c4b</tstamps>
-    </comp>
-    <comp ref="C13">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>51853eaf-2436-4dc3-9484-fe3da6fa7d19</tstamps>
-    </comp>
-    <comp ref="C14">
-      <value>10nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_2/" tstamps="/e2d18e8c-1174-4a60-a6fc-991b63e21af0/"/>
       <tstamps>ecb3c446-1256-4640-ae70-3636a855c193</tstamps>
     </comp>
-    <comp ref="J8">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>13003089-fe56-42ed-8770-d66d9edaad5c</tstamps>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_2/" tstamps="/e2d18e8c-1174-4a60-a6fc-991b63e21af0/"/>
+      <tstamps>5ad22914-d2c9-4f78-8618-37e3ef89df7d</tstamps>
     </comp>
-    <comp ref="J9">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>ef7943c6-deee-4f9c-8e50-6b7866c64a53</tstamps>
-    </comp>
-    <comp ref="J10">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>6c76b22e-7154-439d-aef5-f37f8f155dea</tstamps>
-    </comp>
-    <comp ref="J11">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>28165c0b-7058-4e8a-9312-9d6f090d0d39</tstamps>
-    </comp>
-    <comp ref="J12">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>9e833409-bab8-4e40-b32f-657c5aeb4360</tstamps>
-    </comp>
-    <comp ref="J13">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>67b2e3cf-428b-47be-aaf6-75c9c6694325</tstamps>
-    </comp>
-    <comp ref="J14">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>647ac973-7ba1-41c4-8d17-d96c34b65167</tstamps>
-    </comp>
-    <comp ref="R3">
+    <comp ref="R2">
       <value>400 0.1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_2/" tstamps="/e2d18e8c-1174-4a60-a6fc-991b63e21af0/"/>
       <tstamps>18831e50-f725-4939-980f-8e2bb44d49af</tstamps>
-    </comp>
-    <comp ref="R4">
-      <value>4000 0.1%</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
-      <tstamps>bfb682d4-7786-4b8e-9034-2dd92961d857</tstamps>
     </comp>
     <comp ref="U4">
       <value>MAX31865xAP</value>
@@ -438,126 +294,54 @@
       <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf</datasheet>
       <libsource lib="Sensor_Temperature" part="MAX31865xAP" description="RTD-to-Digital Converter, SSOP-20"/>
       <property name="Sheetname" value="MAX31865_2"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_2/" tstamps="/101e37d8-7cd4-4b71-bd57-2dec8a5055cd/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_2/" tstamps="/e2d18e8c-1174-4a60-a6fc-991b63e21af0/"/>
       <tstamps>0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="MAX31865_3"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_3/" tstamps="/cecccb11-9ba5-4726-b914-0eb04ce5992d/"/>
+      <tstamps>11365b72-7dfc-4463-9cbd-3a437b9b5ec6</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="MAX31865_3"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_3/" tstamps="/cecccb11-9ba5-4726-b914-0eb04ce5992d/"/>
+      <tstamps>a20bec16-7915-439c-a056-303745291c4b</tstamps>
     </comp>
     <comp ref="C15">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>11365b72-7dfc-4463-9cbd-3a437b9b5ec6</tstamps>
-    </comp>
-    <comp ref="C16">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>a20bec16-7915-439c-a056-303745291c4b</tstamps>
-    </comp>
-    <comp ref="C17">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>51853eaf-2436-4dc3-9484-fe3da6fa7d19</tstamps>
-    </comp>
-    <comp ref="C18">
-      <value>10nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_3/" tstamps="/cecccb11-9ba5-4726-b914-0eb04ce5992d/"/>
       <tstamps>ecb3c446-1256-4640-ae70-3636a855c193</tstamps>
     </comp>
-    <comp ref="J15">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>13003089-fe56-42ed-8770-d66d9edaad5c</tstamps>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_3/" tstamps="/cecccb11-9ba5-4726-b914-0eb04ce5992d/"/>
+      <tstamps>5ad22914-d2c9-4f78-8618-37e3ef89df7d</tstamps>
     </comp>
-    <comp ref="J16">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>ef7943c6-deee-4f9c-8e50-6b7866c64a53</tstamps>
-    </comp>
-    <comp ref="J17">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>6c76b22e-7154-439d-aef5-f37f8f155dea</tstamps>
-    </comp>
-    <comp ref="J18">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>28165c0b-7058-4e8a-9312-9d6f090d0d39</tstamps>
-    </comp>
-    <comp ref="J19">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>9e833409-bab8-4e40-b32f-657c5aeb4360</tstamps>
-    </comp>
-    <comp ref="J20">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>67b2e3cf-428b-47be-aaf6-75c9c6694325</tstamps>
-    </comp>
-    <comp ref="J21">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>647ac973-7ba1-41c4-8d17-d96c34b65167</tstamps>
-    </comp>
-    <comp ref="R5">
+    <comp ref="R3">
       <value>400 0.1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_3/" tstamps="/cecccb11-9ba5-4726-b914-0eb04ce5992d/"/>
       <tstamps>18831e50-f725-4939-980f-8e2bb44d49af</tstamps>
-    </comp>
-    <comp ref="R6">
-      <value>4000 0.1%</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
-      <tstamps>bfb682d4-7786-4b8e-9034-2dd92961d857</tstamps>
     </comp>
     <comp ref="U5">
       <value>MAX31865xAP</value>
@@ -565,126 +349,54 @@
       <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf</datasheet>
       <libsource lib="Sensor_Temperature" part="MAX31865xAP" description="RTD-to-Digital Converter, SSOP-20"/>
       <property name="Sheetname" value="MAX31865_3"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_3/" tstamps="/a3fd2eef-eb97-4be2-9b47-1ff8544f01d6/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_3/" tstamps="/cecccb11-9ba5-4726-b914-0eb04ce5992d/"/>
       <tstamps>0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58</tstamps>
     </comp>
-    <comp ref="C19">
+    <comp ref="C16">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_4/" tstamps="/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/"/>
       <tstamps>11365b72-7dfc-4463-9cbd-3a437b9b5ec6</tstamps>
     </comp>
-    <comp ref="C20">
+    <comp ref="C17">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_4/" tstamps="/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/"/>
       <tstamps>a20bec16-7915-439c-a056-303745291c4b</tstamps>
     </comp>
-    <comp ref="C21">
+    <comp ref="C18">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
-      <tstamps>51853eaf-2436-4dc3-9484-fe3da6fa7d19</tstamps>
-    </comp>
-    <comp ref="C22">
-      <value>10nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_4/" tstamps="/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/"/>
       <tstamps>ecb3c446-1256-4640-ae70-3636a855c193</tstamps>
     </comp>
-    <comp ref="J22">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
-      <tstamps>13003089-fe56-42ed-8770-d66d9edaad5c</tstamps>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_4/" tstamps="/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/"/>
+      <tstamps>5ad22914-d2c9-4f78-8618-37e3ef89df7d</tstamps>
     </comp>
-    <comp ref="J23">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
-      <tstamps>ef7943c6-deee-4f9c-8e50-6b7866c64a53</tstamps>
-    </comp>
-    <comp ref="J24">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
-      <tstamps>6c76b22e-7154-439d-aef5-f37f8f155dea</tstamps>
-    </comp>
-    <comp ref="J25">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
-      <tstamps>28165c0b-7058-4e8a-9312-9d6f090d0d39</tstamps>
-    </comp>
-    <comp ref="J26">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
-      <tstamps>9e833409-bab8-4e40-b32f-657c5aeb4360</tstamps>
-    </comp>
-    <comp ref="J27">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
-      <tstamps>67b2e3cf-428b-47be-aaf6-75c9c6694325</tstamps>
-    </comp>
-    <comp ref="J28">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
-      <tstamps>647ac973-7ba1-41c4-8d17-d96c34b65167</tstamps>
-    </comp>
-    <comp ref="R7">
+    <comp ref="R4">
       <value>400 0.1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_4/" tstamps="/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/"/>
       <tstamps>18831e50-f725-4939-980f-8e2bb44d49af</tstamps>
-    </comp>
-    <comp ref="R8">
-      <value>4000 0.1%</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
-      <tstamps>bfb682d4-7786-4b8e-9034-2dd92961d857</tstamps>
     </comp>
     <comp ref="U6">
       <value>MAX31865xAP</value>
@@ -692,53 +404,21 @@
       <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf</datasheet>
       <libsource lib="Sensor_Temperature" part="MAX31865xAP" description="RTD-to-Digital Converter, SSOP-20"/>
       <property name="Sheetname" value="MAX31865_4"/>
-      <property name="Sheetfile" value="MAX31865.kicad_sch"/>
-      <sheetpath names="/MAX31865_4/" tstamps="/250b0f5e-3c48-4237-9b62-f3d9e00d5988/"/>
+      <property name="Sheetfile" value="MAX31865_3w.kicad_sch"/>
+      <sheetpath names="/MAX31865_4/" tstamps="/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/"/>
       <tstamps>0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Screw_Terminal_01x02">
-      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>TerminalBlock*:*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Screw_Terminal_01x02</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x02">
-      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x02</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x03">
-      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x03</field>
+        <field name="Value">Screw_Terminal_01x03</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -902,9 +582,6 @@
     <library logical="Connector">
       <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
-    <library logical="Connector_Generic">
-      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
-    </library>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
@@ -920,11 +597,11 @@
   </libraries>
   <nets>
     <net code="1" name="+3.3V">
-      <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C15" pin="2" pintype="passive"/>
-      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="OUT" pintype="power_out"/>
       <node ref="U3" pin="2" pinfunction="DVDD" pintype="power_in"/>
       <node ref="U4" pin="2" pinfunction="DVDD" pintype="power_in"/>
@@ -932,9 +609,9 @@
       <node ref="U6" pin="2" pinfunction="DVDD" pintype="power_in"/>
     </net>
     <net code="2" name="+3.3VA">
-      <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="C16" pin="1" pintype="passive"/>
-      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="OUT" pintype="power_out"/>
@@ -1006,19 +683,19 @@
       <node ref="A1" pin="6" pinfunction="GND" pintype="power_in"/>
       <node ref="A1" pin="7" pinfunction="GND" pintype="power_in"/>
       <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="C12" pin="2" pintype="passive"/>
-      <node ref="C15" pin="1" pintype="passive"/>
-      <node ref="C16" pin="2" pintype="passive"/>
-      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
@@ -1034,301 +711,191 @@
       <node ref="U6" pin="18" pinfunction="DGND" pintype="power_in"/>
       <node ref="U6" pin="19" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="16" name="GNDA">
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J22" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
-    </net>
-    <net code="17" name="Net-(C1-Pad1)">
+    <net code="16" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="BP" pintype="input"/>
     </net>
-    <net code="18" name="Net-(C2-Pad1)">
+    <net code="17" name="Net-(C2-Pad1)">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="BP" pintype="input"/>
     </net>
-    <net code="19" name="Net-(C9-Pad2)">
-      <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="20" name="Net-(C10-Pad1)">
+    <net code="18" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U3" pin="11" pinfunction="RTDIN-" pintype="input"/>
-    </net>
-    <net code="21" name="Net-(C10-Pad2)">
-      <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U3" pin="10" pinfunction="RTDIN+" pintype="input"/>
-    </net>
-    <net code="22" name="Net-(C13-Pad1)">
-      <node ref="C13" pin="1" pintype="passive"/>
-      <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U4" pin="11" pinfunction="RTDIN-" pintype="input"/>
-    </net>
-    <net code="23" name="Net-(C13-Pad2)">
-      <node ref="C13" pin="2" pintype="passive"/>
-      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="24" name="Net-(C14-Pad2)">
-      <node ref="C14" pin="2" pintype="passive"/>
-      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U4" pin="10" pinfunction="RTDIN+" pintype="input"/>
-    </net>
-    <net code="25" name="Net-(C17-Pad1)">
-      <node ref="C17" pin="1" pintype="passive"/>
-      <node ref="C18" pin="1" pintype="passive"/>
-      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U5" pin="11" pinfunction="RTDIN-" pintype="input"/>
-    </net>
-    <net code="26" name="Net-(C17-Pad2)">
-      <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="27" name="Net-(C18-Pad2)">
-      <node ref="C18" pin="2" pintype="passive"/>
-      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U5" pin="10" pinfunction="RTDIN+" pintype="input"/>
-    </net>
-    <net code="28" name="Net-(C21-Pad1)">
-      <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="C22" pin="1" pintype="passive"/>
-      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J28" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U6" pin="11" pinfunction="RTDIN-" pintype="input"/>
-    </net>
-    <net code="29" name="Net-(C21-Pad2)">
-      <node ref="C21" pin="2" pintype="passive"/>
-      <node ref="J26" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="30" name="Net-(C22-Pad2)">
-      <node ref="C22" pin="2" pintype="passive"/>
-      <node ref="J24" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J26" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J27" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U6" pin="10" pinfunction="RTDIN+" pintype="input"/>
-    </net>
-    <net code="31" name="Net-(J1-Pad1)">
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U3" pin="8" pinfunction="FORCE+" pintype="passive"/>
-    </net>
-    <net code="32" name="Net-(J1-Pad2)">
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U3" pin="9" pinfunction="FORCE2" pintype="input"/>
-    </net>
-    <net code="33" name="Net-(J2-Pad2)">
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U3" pin="12" pinfunction="FORCE-" pintype="power_out"/>
     </net>
-    <net code="34" name="Net-(J4-Pad1)">
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
+    <net code="19" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="RTDIN+" pintype="input"/>
     </net>
-    <net code="35" name="Net-(J4-Pad2)">
+    <net code="20" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="RTDIN-" pintype="input"/>
+      <node ref="U4" pin="12" pinfunction="FORCE-" pintype="power_out"/>
+    </net>
+    <net code="21" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="RTDIN+" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="RTDIN-" pintype="input"/>
+      <node ref="U5" pin="12" pinfunction="FORCE-" pintype="power_out"/>
+    </net>
+    <net code="23" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="RTDIN+" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="RTDIN-" pintype="input"/>
+      <node ref="U6" pin="12" pinfunction="FORCE-" pintype="power_out"/>
+    </net>
+    <net code="25" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="RTDIN+" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="FORCE+" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="FORCE2" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="FORCE+" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="FORCE2" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="FORCE+" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="FORCE2" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="FORCE+" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="FORCE2" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="BIAS" pintype="power_out"/>
       <node ref="U3" pin="5" pinfunction="REFIN+" pintype="input"/>
     </net>
-    <net code="36" name="Net-(J4-Pad3)">
-      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-    </net>
-    <net code="37" name="Net-(J8-Pad2)">
-      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U4" pin="9" pinfunction="FORCE2" pintype="input"/>
-    </net>
-    <net code="38" name="Net-(J10-Pad1)">
-      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U4" pin="8" pinfunction="FORCE+" pintype="passive"/>
-    </net>
-    <net code="39" name="Net-(J11-Pad1)">
-      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-    </net>
-    <net code="40" name="Net-(J11-Pad2)">
-      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U4" pin="4" pinfunction="BIAS" pintype="power_out"/>
-      <node ref="U4" pin="5" pinfunction="REFIN+" pintype="input"/>
-    </net>
-    <net code="41" name="Net-(J11-Pad3)">
-      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
-    </net>
-    <net code="42" name="Net-(J14-Pad2)">
-      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U4" pin="12" pinfunction="FORCE-" pintype="power_out"/>
-    </net>
-    <net code="43" name="Net-(J15-Pad1)">
-      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U5" pin="8" pinfunction="FORCE+" pintype="passive"/>
-    </net>
-    <net code="44" name="Net-(J15-Pad2)">
-      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U5" pin="9" pinfunction="FORCE2" pintype="input"/>
-    </net>
-    <net code="45" name="Net-(J16-Pad2)">
-      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U5" pin="12" pinfunction="FORCE-" pintype="power_out"/>
-    </net>
-    <net code="46" name="Net-(J18-Pad1)">
-      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-    </net>
-    <net code="47" name="Net-(J18-Pad2)">
-      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U5" pin="4" pinfunction="BIAS" pintype="power_out"/>
-      <node ref="U5" pin="5" pinfunction="REFIN+" pintype="input"/>
-    </net>
-    <net code="48" name="Net-(J18-Pad3)">
-      <node ref="J18" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-    </net>
-    <net code="49" name="Net-(J22-Pad1)">
-      <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J27" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U6" pin="8" pinfunction="FORCE+" pintype="passive"/>
-    </net>
-    <net code="50" name="Net-(J22-Pad2)">
-      <node ref="J22" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U6" pin="9" pinfunction="FORCE2" pintype="input"/>
-    </net>
-    <net code="51" name="Net-(J23-Pad2)">
-      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J28" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U6" pin="12" pinfunction="FORCE-" pintype="power_out"/>
-    </net>
-    <net code="52" name="Net-(J25-Pad1)">
-      <node ref="J25" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-    </net>
-    <net code="53" name="Net-(J25-Pad2)">
-      <node ref="J25" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U6" pin="4" pinfunction="BIAS" pintype="power_out"/>
-      <node ref="U6" pin="5" pinfunction="REFIN+" pintype="input"/>
-    </net>
-    <net code="54" name="Net-(J25-Pad3)">
-      <node ref="J25" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
-    </net>
-    <net code="55" name="Net-(R1-Pad2)">
+    <net code="31" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="REFIN-" pintype="input"/>
       <node ref="U3" pin="7" pinfunction="ISENSOR" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
+    <net code="32" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="BIAS" pintype="power_out"/>
+      <node ref="U4" pin="5" pinfunction="REFIN+" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="REFIN-" pintype="input"/>
       <node ref="U4" pin="7" pinfunction="ISENSOR" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(R5-Pad2)">
-      <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
+    <net code="34" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="BIAS" pintype="power_out"/>
+      <node ref="U5" pin="5" pinfunction="REFIN+" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U5" pin="6" pinfunction="REFIN-" pintype="input"/>
       <node ref="U5" pin="7" pinfunction="ISENSOR" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(R7-Pad2)">
-      <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="R8" pin="2" pintype="passive"/>
+    <net code="36" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="BIAS" pintype="power_out"/>
+      <node ref="U6" pin="5" pinfunction="REFIN+" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U6" pin="6" pinfunction="REFIN-" pintype="input"/>
       <node ref="U6" pin="7" pinfunction="ISENSOR" pintype="passive"/>
     </net>
-    <net code="59" name="unconnected-(A1-Pad1)">
+    <net code="38" name="unconnected-(A1-Pad1)">
       <node ref="A1" pin="1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="60" name="unconnected-(A1-Pad2)">
+    <net code="39" name="unconnected-(A1-Pad2)">
       <node ref="A1" pin="2" pinfunction="IOREF" pintype="output"/>
     </net>
-    <net code="61" name="unconnected-(A1-Pad3)">
+    <net code="40" name="unconnected-(A1-Pad3)">
       <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input"/>
     </net>
-    <net code="62" name="unconnected-(A1-Pad4)">
+    <net code="41" name="unconnected-(A1-Pad4)">
       <node ref="A1" pin="4" pinfunction="3V3" pintype="power_out"/>
     </net>
-    <net code="63" name="unconnected-(A1-Pad8)">
+    <net code="42" name="unconnected-(A1-Pad8)">
       <node ref="A1" pin="8" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="64" name="unconnected-(A1-Pad13)">
+    <net code="43" name="unconnected-(A1-Pad13)">
       <node ref="A1" pin="13" pinfunction="SDA/A4" pintype="bidirectional"/>
     </net>
-    <net code="65" name="unconnected-(A1-Pad14)">
+    <net code="44" name="unconnected-(A1-Pad14)">
       <node ref="A1" pin="14" pinfunction="SCL/A5" pintype="bidirectional"/>
     </net>
-    <net code="66" name="unconnected-(A1-Pad15)">
+    <net code="45" name="unconnected-(A1-Pad15)">
       <node ref="A1" pin="15" pinfunction="D0/RX" pintype="bidirectional"/>
     </net>
-    <net code="67" name="unconnected-(A1-Pad16)">
+    <net code="46" name="unconnected-(A1-Pad16)">
       <node ref="A1" pin="16" pinfunction="D1/TX" pintype="bidirectional"/>
     </net>
-    <net code="68" name="unconnected-(A1-Pad17)">
+    <net code="47" name="unconnected-(A1-Pad17)">
       <node ref="A1" pin="17" pinfunction="D2" pintype="bidirectional"/>
     </net>
-    <net code="69" name="unconnected-(A1-Pad18)">
+    <net code="48" name="unconnected-(A1-Pad18)">
       <node ref="A1" pin="18" pinfunction="D3" pintype="bidirectional"/>
     </net>
-    <net code="70" name="unconnected-(A1-Pad19)">
+    <net code="49" name="unconnected-(A1-Pad19)">
       <node ref="A1" pin="19" pinfunction="D4" pintype="bidirectional"/>
     </net>
-    <net code="71" name="unconnected-(A1-Pad20)">
+    <net code="50" name="unconnected-(A1-Pad20)">
       <node ref="A1" pin="20" pinfunction="D5" pintype="bidirectional"/>
     </net>
-    <net code="72" name="unconnected-(A1-Pad21)">
+    <net code="51" name="unconnected-(A1-Pad21)">
       <node ref="A1" pin="21" pinfunction="D6" pintype="bidirectional"/>
     </net>
-    <net code="73" name="unconnected-(A1-Pad22)">
+    <net code="52" name="unconnected-(A1-Pad22)">
       <node ref="A1" pin="22" pinfunction="D7" pintype="bidirectional"/>
     </net>
-    <net code="74" name="unconnected-(A1-Pad23)">
+    <net code="53" name="unconnected-(A1-Pad23)">
       <node ref="A1" pin="23" pinfunction="D8" pintype="bidirectional"/>
     </net>
-    <net code="75" name="unconnected-(A1-Pad24)">
+    <net code="54" name="unconnected-(A1-Pad24)">
       <node ref="A1" pin="24" pinfunction="D9" pintype="bidirectional"/>
     </net>
-    <net code="76" name="unconnected-(A1-Pad25)">
+    <net code="55" name="unconnected-(A1-Pad25)">
       <node ref="A1" pin="25" pinfunction="D10" pintype="bidirectional"/>
     </net>
-    <net code="77" name="unconnected-(A1-Pad30)">
+    <net code="56" name="unconnected-(A1-Pad30)">
       <node ref="A1" pin="30" pinfunction="AREF" pintype="input"/>
     </net>
-    <net code="78" name="unconnected-(A1-Pad31)">
+    <net code="57" name="unconnected-(A1-Pad31)">
       <node ref="A1" pin="31" pinfunction="SDA/A4" pintype="bidirectional"/>
     </net>
-    <net code="79" name="unconnected-(A1-Pad32)">
+    <net code="58" name="unconnected-(A1-Pad32)">
       <node ref="A1" pin="32" pinfunction="SCL/A5" pintype="bidirectional"/>
     </net>
-    <net code="80" name="unconnected-(U3-Pad20)">
+    <net code="59" name="unconnected-(U3-Pad20)">
       <node ref="U3" pin="20" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U4-Pad20)">
+    <net code="60" name="unconnected-(U4-Pad20)">
       <node ref="U4" pin="20" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U5-Pad20)">
+    <net code="61" name="unconnected-(U5-Pad20)">
       <node ref="U5" pin="20" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U6-Pad20)">
+    <net code="62" name="unconnected-(U6-Pad20)">
       <node ref="U6" pin="20" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
