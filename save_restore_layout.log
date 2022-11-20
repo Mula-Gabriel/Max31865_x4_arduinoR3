@@ -1,26 +1,26 @@
-11-18 22:28:57 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 159:Plugin executed on: 'linux'
-11-18 22:28:57 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 160:Plugin executed with python version: '3.10.8 (main, Nov  1 2022, 14:18:21) [GCC 12.2.0]'
-11-18 22:28:57 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 161:KiCad build version: (6.0.9)
-11-18 22:28:57 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 162:Plugin version: 1.1.5
-11-18 22:28:57 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 163:Frame repr: <wx._core.Frame object at 0x7f93f765b010>
-11-18 22:28:57 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 181:Anchor footprint reference is 'U3'
-11-18 22:28:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 261:Restore layout chosen
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 608:Getting board info
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 610:Get project schematics and layout data
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 616:Loading saved design
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 638:Source level is:['MAX31865_3w.kicad_sch']
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 643:Destination footprint is:'U3'
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 644:Destination levels available are:['MAX31865_3w.kicad_sch']
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 655:Destination level is:['MAX31865_3w.kicad_sch']
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 660:All sch files required are: ['MAX31865_3w.kicad_sch']
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 662:Getting current schematics hash
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 673:Source hash is:'92ce0b2047b87f6714959c2d1ad63bb2'
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 674:Destination hash is: '92ce0b2047b87f6714959c2d1ad63bb2'
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 691:Get layout data from saved board
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 831:Replicating footprints
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 988:Replicating tracks
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1037:Replicating zones
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1097:Replicating text
-11-18 22:28:59 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1127:Replicating drawings
+11-20 14:34:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 159:Plugin executed on: 'linux'
+11-20 14:34:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 160:Plugin executed with python version: '3.10.8 (main, Nov  1 2022, 14:18:21) [GCC 12.2.0]'
+11-20 14:34:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 161:KiCad build version: (6.0.9)
+11-20 14:34:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 162:Plugin version: 1.1.5
+11-20 14:34:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 163:Frame repr: <wx._core.Frame object at 0x7f54ec6cbd90>
+11-20 14:34:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 181:Anchor footprint reference is 'U3'
+11-20 14:34:34 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 261:Restore layout chosen
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 608:Getting board info
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 610:Get project schematics and layout data
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 616:Loading saved design
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 638:Source level is:['MAX31865_3w.kicad_sch']
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 643:Destination footprint is:'U3'
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 644:Destination levels available are:['MAX31865_3w.kicad_sch']
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 655:Destination level is:['MAX31865_3w.kicad_sch']
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 660:All sch files required are: ['MAX31865_3w.kicad_sch']
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 662:Getting current schematics hash
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 673:Source hash is:'89445a5681355506e692ae8e6e06b764'
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 674:Destination hash is: '89445a5681355506e692ae8e6e06b764'
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 691:Get layout data from saved board
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 831:Replicating footprints
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 988:Replicating tracks
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1037:Replicating zones
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1097:Replicating text
+11-20 14:34:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1127:Replicating drawings

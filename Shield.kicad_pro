@@ -406,10 +406,6 @@
           "/CS_MAX2",
           "/CS_MAX3",
           "/CS_MAX4",
-          "/MAX31865_1/DRDY",
-          "/MAX31865_2/DRDY",
-          "/MAX31865_3/DRDY",
-          "/MAX31865_4/DRDY",
           "/SPI2_MISO",
           "/SPI2_MOSI",
           "/SPI2_SCK"
