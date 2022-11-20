@@ -1740,17 +1740,17 @@
     (path "/96e203a9-b5da-4ee0-8051-ae09c0cbe467"
       (reference "U2") (unit 1) (value "MIC5219-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
-    (path "/cecccb11-9ba5-4726-b914-0eb04ce5992d/0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58"
-      (reference "U?") (unit 1) (value "MAX31865xTP") (footprint "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm")
+    (path "/ec1f69e3-5897-4f77-9f27-39305d91428f/0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58"
+      (reference "U3") (unit 1) (value "MAX31865xTP") (footprint "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm")
     )
     (path "/e2d18e8c-1174-4a60-a6fc-991b63e21af0/0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58"
-      (reference "U?") (unit 1) (value "MAX31865xTP") (footprint "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm")
+      (reference "U4") (unit 1) (value "MAX31865xTP") (footprint "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm")
     )
-    (path "/ec1f69e3-5897-4f77-9f27-39305d91428f/0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58"
-      (reference "U?") (unit 1) (value "MAX31865xTP") (footprint "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm")
+    (path "/cecccb11-9ba5-4726-b914-0eb04ce5992d/0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58"
+      (reference "U5") (unit 1) (value "MAX31865xTP") (footprint "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm")
     )
     (path "/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58"
-      (reference "U?") (unit 1) (value "MAX31865xTP") (footprint "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm")
+      (reference "U6") (unit 1) (value "MAX31865xTP") (footprint "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm")
     )
   )
 )

@@ -708,7 +708,7 @@
   (symbol (lib_id "Sensor_Temperature:MAX31865xTP") (at 124.46 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0f7ebff1-b6a9-4a4c-9024-61e0cb0cec58)
-    (property "Reference" "U?" (id 0) (at 113.03 68.58 0))
+    (property "Reference" "U3" (id 0) (at 113.03 68.58 0))
     (property "Value" "MAX31865xTP" (id 1) (at 134.62 68.58 0))
     (property "Footprint" "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm" (id 2) (at 128.27 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
