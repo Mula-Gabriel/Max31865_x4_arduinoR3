@@ -1,7 +1,7 @@
 Designator,Footprint,Quantity,Value,LCSC Part #
 A1,Arduino_UNO_R3,1,Arduino_UNO_R3,
-"C1, C2",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2,470 pf,
-"C10, C11, C12, C13, C14, C15, C16, C17, C18, C7, C8, C9",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,12,100nF,
+"C1, C2",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2,470 pf,
+"C10, C11, C12, C13, C14, C15, C16, C17, C18, C7, C8, C9",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,12,100nF,
 "C3, C6",CP_EIA-3216-18_Kemet-A,2,10uf ,
 "C4, C5",CP_EIA-3216-18_Kemet-A,2,1uf ,
 "J1, J2, J3, J4","TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal",4,Screw_Terminal_01x03,
