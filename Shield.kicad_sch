@@ -1723,16 +1723,16 @@
       (reference "J4") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal")
     )
     (path "/ec1f69e3-5897-4f77-9f27-39305d91428f/18831e50-f725-4939-980f-8e2bb44d49af"
-      (reference "R1") (unit 1) (value "400 0.1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R1") (unit 1) (value "400 0.1%") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/e2d18e8c-1174-4a60-a6fc-991b63e21af0/18831e50-f725-4939-980f-8e2bb44d49af"
-      (reference "R2") (unit 1) (value "400 0.1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R2") (unit 1) (value "400 0.1%") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/cecccb11-9ba5-4726-b914-0eb04ce5992d/18831e50-f725-4939-980f-8e2bb44d49af"
-      (reference "R3") (unit 1) (value "400 0.1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R3") (unit 1) (value "400 0.1%") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/18831e50-f725-4939-980f-8e2bb44d49af"
-      (reference "R4") (unit 1) (value "400 0.1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R4") (unit 1) (value "400 0.1%") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/dd1c16a7-671a-4e62-b647-9fcd8906b509"
       (reference "U1") (unit 1) (value "MIC5219-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
