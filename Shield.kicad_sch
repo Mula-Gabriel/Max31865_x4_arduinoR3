@@ -1742,7 +1742,7 @@
     (property "Value" "Arduino_UNO_R3" (id 1) (at 172.1994 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Module:Arduino_UNO_R3" (id 2) (at 165.1 62.23 0)
+    (property "Footprint" "Arduino:Arduino_UNO_R3_3d" (id 2) (at 165.1 62.23 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.arduino.cc/en/Main/arduinoBoardUno" (id 3) (at 165.1 62.23 0)
@@ -2100,7 +2100,7 @@
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
     (path "/e6a0dfad-b3ab-4c36-83bb-45ac5b045ec9"
-      (reference "A1") (unit 1) (value "Arduino_UNO_R3") (footprint "Module:Arduino_UNO_R3")
+      (reference "A1") (unit 1) (value "Arduino_UNO_R3") (footprint "Arduino:Arduino_UNO_R3_3d")
     )
     (path "/c49d794b-82e9-493d-b715-0ad5480931c3"
       (reference "C1") (unit 1) (value "100 nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
