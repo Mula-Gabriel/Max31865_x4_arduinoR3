@@ -2099,6 +2099,18 @@
     (path "/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/14c376e0-3842-48cc-9c96-0d95c0ea9acb"
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
+    (path "/ec1f69e3-5897-4f77-9f27-39305d91428f/81c27da0-cff4-41f0-857d-1f256ba57666"
+      (reference "#PWR036") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e2d18e8c-1174-4a60-a6fc-991b63e21af0/81c27da0-cff4-41f0-857d-1f256ba57666"
+      (reference "#PWR037") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cecccb11-9ba5-4726-b914-0eb04ce5992d/81c27da0-cff4-41f0-857d-1f256ba57666"
+      (reference "#PWR038") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/81c27da0-cff4-41f0-857d-1f256ba57666"
+      (reference "#PWR039") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e6a0dfad-b3ab-4c36-83bb-45ac5b045ec9"
       (reference "A1") (unit 1) (value "Arduino_UNO_R3") (footprint "Arduino:Arduino_UNO_R3_3d")
     )
@@ -2156,17 +2168,17 @@
     (path "/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/ecb3c446-1256-4640-ae70-3636a855c193"
       (reference "C18") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/ec1f69e3-5897-4f77-9f27-39305d91428f/5ad22914-d2c9-4f78-8618-37e3ef89df7d"
-      (reference "J1") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal")
+    (path "/ec1f69e3-5897-4f77-9f27-39305d91428f/a7f7ebd0-ba97-4a62-8216-cb1fb9202160"
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal")
     )
-    (path "/e2d18e8c-1174-4a60-a6fc-991b63e21af0/5ad22914-d2c9-4f78-8618-37e3ef89df7d"
-      (reference "J2") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal")
+    (path "/e2d18e8c-1174-4a60-a6fc-991b63e21af0/a7f7ebd0-ba97-4a62-8216-cb1fb9202160"
+      (reference "J2") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal")
     )
-    (path "/cecccb11-9ba5-4726-b914-0eb04ce5992d/5ad22914-d2c9-4f78-8618-37e3ef89df7d"
-      (reference "J3") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal")
+    (path "/cecccb11-9ba5-4726-b914-0eb04ce5992d/a7f7ebd0-ba97-4a62-8216-cb1fb9202160"
+      (reference "J3") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal")
     )
-    (path "/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/5ad22914-d2c9-4f78-8618-37e3ef89df7d"
-      (reference "J4") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal")
+    (path "/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/a7f7ebd0-ba97-4a62-8216-cb1fb9202160"
+      (reference "J4") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal")
     )
     (path "/cfc55900-5911-4d0f-8c2c-547dcea4fccc"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -2203,6 +2215,30 @@
     )
     (path "/e2d17da5-e544-43a7-a364-1872b5106274"
       (reference "JP12") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/ec1f69e3-5897-4f77-9f27-39305d91428f/4665595f-6f13-475f-a799-4690cb245fd4"
+      (reference "JP13") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/ec1f69e3-5897-4f77-9f27-39305d91428f/6ecbb866-6a22-4445-9a91-93e6771b7faf"
+      (reference "JP14") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/e2d18e8c-1174-4a60-a6fc-991b63e21af0/4665595f-6f13-475f-a799-4690cb245fd4"
+      (reference "JP15") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/e2d18e8c-1174-4a60-a6fc-991b63e21af0/6ecbb866-6a22-4445-9a91-93e6771b7faf"
+      (reference "JP16") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/cecccb11-9ba5-4726-b914-0eb04ce5992d/4665595f-6f13-475f-a799-4690cb245fd4"
+      (reference "JP17") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/cecccb11-9ba5-4726-b914-0eb04ce5992d/6ecbb866-6a22-4445-9a91-93e6771b7faf"
+      (reference "JP18") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/4665595f-6f13-475f-a799-4690cb245fd4"
+      (reference "JP19") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/7a39c683-02c0-4bd5-8c0c-94c88f5499d8/6ecbb866-6a22-4445-9a91-93e6771b7faf"
+      (reference "JP20") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
     )
     (path "/ec1f69e3-5897-4f77-9f27-39305d91428f/18831e50-f725-4939-980f-8e2bb44d49af"
       (reference "R1") (unit 1) (value "400 0.1%") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
